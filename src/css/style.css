@@ -1,0 +1,21 @@
+html{
+    font-size: calc(100vw/7.5);
+}
+* {
+    color: red;
+    padding: 0;
+    margin: 0
+}
+.flex-box{
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid #1296db
+}
+.page-title{
+	font-size: .4rem
+}
+/*.a {
+    width: 100px;
+    height: 100px;
+    background: url("../img/1.png") no-repeat center;
+}*/

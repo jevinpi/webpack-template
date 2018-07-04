@@ -1,0 +1,15 @@
+@mixin font-dpr($font-size){ 
+	font-size: $font-size; 
+	[data-dpr="2"] & { font-size: $font-size * 2; } 
+	[data-dpr="3"] & { font-size: $font-size * 3; } 
+}
+
+.ft-box{
+	width: 3rem;
+	height: 4rem;
+	border: 1px solid purple;
+	p{
+		color: black;
+		@include font-dpr(30px);
+	}
+}
